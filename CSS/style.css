@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(../2000.jpg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    float: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ul li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 50px;
+    font-size: bold;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(15, 14, 15); 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight:normal;
+
+}
+.btn{
+    display:grid;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 50px;
+
+}
+.sign{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 50px;
+    width: 75px;
+    background: linear-gradient(to top,rgba(11, 80, 4, 0.8)50%,rgba(8, 75, 14, 0.8)50%);
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+.sign:hover{
+    background: #fff;
+    color: blue;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 225px;
+    left: 80px;
+    font-size: 20px;
+    max-height: fit-content;
+
+}
+.title.h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Gill Sans';
+   
+}
+
+.par{
+    margin-top: 25px;
+    position: relative;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cn{
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 50px;
+    background: linear-gradient(to top,rgba(11, 80, 4, 0.8)50%,rgba(8, 75, 14, 0.8)50%);
+    color: #fff;
+    transition: 0.4s ease;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.cn:hover{
+    background: #fff;
+    color: blue;
+}
